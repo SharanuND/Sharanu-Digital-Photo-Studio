@@ -85,6 +85,35 @@ form button {
     border-radius: 5px;
     cursor: pointer;
 }
+/* Social Media Section */
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    width: 50px; /* Increase size for better visibility */
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.social-link {
+    color: #333;
+    font-size: 2em;
+    text-decoration: none;
+}
 
 footer {
     background-color: #333;
