@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neelkanth's Photographer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sharanu Digital Photo Studio</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="services">
+        <h2>Services</h2>
+        <ul class="services-list">
+            <li>Wedding Photography</li>
+            <li>Portrait Photography</li>
+            <li>Event Photography</li>
+            <li>Commercial Photography</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>Hello! I'm Neelkanth, a professional photographer with over 25+ years of experience capturing the beauty of life through my lens. I specialize in wedding, portrait, event, and commercial photography. My passion is to create stunning images that tell a story and evoke emotions.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Neelkanth's Photography. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
